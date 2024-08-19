@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -std=c++11 -fPIC  -shared -Wl,-soname,libmy_muduo.so -o ../lib/libmy_muduo.so CMakeFiles/my_muduo.dir/src/InetAddress.o CMakeFiles/my_muduo.dir/src/Logger.o CMakeFiles/my_muduo.dir/src/Timestamp.o 

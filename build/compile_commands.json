@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ccoolz/cppCode/app/MyMuduo/build",
+  "command": "/usr/bin/g++  -Dmy_muduo_EXPORTS -I/home/ccoolz/cppCode/app/MyMuduo/inc   -g -std=c++11 -fPIC   -o CMakeFiles/my_muduo.dir/src/InetAddress.o -c /home/ccoolz/cppCode/app/MyMuduo/src/InetAddress.cc",
+  "file": "/home/ccoolz/cppCode/app/MyMuduo/src/InetAddress.cc"
+},
+{
+  "directory": "/home/ccoolz/cppCode/app/MyMuduo/build",
+  "command": "/usr/bin/g++  -Dmy_muduo_EXPORTS -I/home/ccoolz/cppCode/app/MyMuduo/inc   -g -std=c++11 -fPIC   -o CMakeFiles/my_muduo.dir/src/Logger.o -c /home/ccoolz/cppCode/app/MyMuduo/src/Logger.cc",
+  "file": "/home/ccoolz/cppCode/app/MyMuduo/src/Logger.cc"
+},
+{
+  "directory": "/home/ccoolz/cppCode/app/MyMuduo/build",
+  "command": "/usr/bin/g++  -Dmy_muduo_EXPORTS -I/home/ccoolz/cppCode/app/MyMuduo/inc   -g -std=c++11 -fPIC   -o CMakeFiles/my_muduo.dir/src/Timestamp.o -c /home/ccoolz/cppCode/app/MyMuduo/src/Timestamp.cc",
+  "file": "/home/ccoolz/cppCode/app/MyMuduo/src/Timestamp.cc"
+}
+]

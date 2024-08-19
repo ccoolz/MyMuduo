@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+4.15.0-142-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f569/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f569.dir/build.make CMakeFiles/cmTC_8f569.dir/build
+make[1]: Entering directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f569.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_8f569.dir/testCCompiler.c.o   -c /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8f569
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f569.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_8f569.dir/testCCompiler.c.o  -o cmTC_8f569 
+make[1]: Leaving directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46593/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46593.dir/build.make CMakeFiles/cmTC_46593.dir/build
+make[1]: Entering directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46593.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_46593.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_46593
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46593.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_46593.dir/CMakeCCompilerABI.c.o  -o cmTC_46593 
+make[1]: Leaving directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f275/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f275.dir/build.make CMakeFiles/cmTC_5f275.dir/build
+make[1]: Entering directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f275.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_5f275.dir/testCXXCompiler.cxx.o -c /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5f275
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f275.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_5f275.dir/testCXXCompiler.cxx.o  -o cmTC_5f275 
+make[1]: Leaving directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f108.dir/build.make CMakeFiles/cmTC_2f108.dir/build
+make[1]: Entering directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f108.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_2f108.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2f108
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f108.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_2f108.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2f108 
+make[1]: Leaving directory '/home/ccoolz/cppCode/app/MyMuduo/build/CMakeFiles/CMakeTmp'
+
+
