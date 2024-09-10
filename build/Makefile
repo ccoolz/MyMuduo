@@ -124,49 +124,94 @@ my_muduo/fast:
 .PHONY : my_muduo/fast
 
 # target to build an object file
-src/InetAddress.o:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/InetAddress.o
-.PHONY : src/InetAddress.o
+src/base/Logger.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Logger.o
+.PHONY : src/base/Logger.o
 
 # target to preprocess a source file
-src/InetAddress.i:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/InetAddress.i
-.PHONY : src/InetAddress.i
+src/base/Logger.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Logger.i
+.PHONY : src/base/Logger.i
 
 # target to generate assembly for a file
-src/InetAddress.s:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/InetAddress.s
-.PHONY : src/InetAddress.s
+src/base/Logger.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Logger.s
+.PHONY : src/base/Logger.s
 
 # target to build an object file
-src/Logger.o:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Logger.o
-.PHONY : src/Logger.o
+src/base/Timestamp.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Timestamp.o
+.PHONY : src/base/Timestamp.o
 
 # target to preprocess a source file
-src/Logger.i:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Logger.i
-.PHONY : src/Logger.i
+src/base/Timestamp.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Timestamp.i
+.PHONY : src/base/Timestamp.i
 
 # target to generate assembly for a file
-src/Logger.s:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Logger.s
-.PHONY : src/Logger.s
+src/base/Timestamp.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/base/Timestamp.s
+.PHONY : src/base/Timestamp.s
 
 # target to build an object file
-src/Timestamp.o:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Timestamp.o
-.PHONY : src/Timestamp.o
+src/net/Channel.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/Channel.o
+.PHONY : src/net/Channel.o
 
 # target to preprocess a source file
-src/Timestamp.i:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Timestamp.i
-.PHONY : src/Timestamp.i
+src/net/Channel.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/Channel.i
+.PHONY : src/net/Channel.i
 
 # target to generate assembly for a file
-src/Timestamp.s:
-	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/Timestamp.s
-.PHONY : src/Timestamp.s
+src/net/Channel.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/Channel.s
+.PHONY : src/net/Channel.s
+
+# target to build an object file
+src/net/EventLoop.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/EventLoop.o
+.PHONY : src/net/EventLoop.o
+
+# target to preprocess a source file
+src/net/EventLoop.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/EventLoop.i
+.PHONY : src/net/EventLoop.i
+
+# target to generate assembly for a file
+src/net/EventLoop.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/EventLoop.s
+.PHONY : src/net/EventLoop.s
+
+# target to build an object file
+src/net/InetAddress.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/InetAddress.o
+.PHONY : src/net/InetAddress.o
+
+# target to preprocess a source file
+src/net/InetAddress.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/InetAddress.i
+.PHONY : src/net/InetAddress.i
+
+# target to generate assembly for a file
+src/net/InetAddress.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/InetAddress.s
+.PHONY : src/net/InetAddress.s
+
+# target to build an object file
+src/net/TcpServer.o:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/TcpServer.o
+.PHONY : src/net/TcpServer.o
+
+# target to preprocess a source file
+src/net/TcpServer.i:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/TcpServer.i
+.PHONY : src/net/TcpServer.i
+
+# target to generate assembly for a file
+src/net/TcpServer.s:
+	$(MAKE) -f CMakeFiles/my_muduo.dir/build.make CMakeFiles/my_muduo.dir/src/net/TcpServer.s
+.PHONY : src/net/TcpServer.s
 
 # Help Target
 help:
@@ -177,15 +222,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... my_muduo"
 	@echo "... edit_cache"
-	@echo "... src/InetAddress.o"
-	@echo "... src/InetAddress.i"
-	@echo "... src/InetAddress.s"
-	@echo "... src/Logger.o"
-	@echo "... src/Logger.i"
-	@echo "... src/Logger.s"
-	@echo "... src/Timestamp.o"
-	@echo "... src/Timestamp.i"
-	@echo "... src/Timestamp.s"
+	@echo "... src/base/Logger.o"
+	@echo "... src/base/Logger.i"
+	@echo "... src/base/Logger.s"
+	@echo "... src/base/Timestamp.o"
+	@echo "... src/base/Timestamp.i"
+	@echo "... src/base/Timestamp.s"
+	@echo "... src/net/Channel.o"
+	@echo "... src/net/Channel.i"
+	@echo "... src/net/Channel.s"
+	@echo "... src/net/EventLoop.o"
+	@echo "... src/net/EventLoop.i"
+	@echo "... src/net/EventLoop.s"
+	@echo "... src/net/InetAddress.o"
+	@echo "... src/net/InetAddress.i"
+	@echo "... src/net/InetAddress.s"
+	@echo "... src/net/TcpServer.o"
+	@echo "... src/net/TcpServer.i"
+	@echo "... src/net/TcpServer.s"
 .PHONY : help
 
 

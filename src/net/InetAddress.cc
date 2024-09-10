@@ -28,7 +28,7 @@ InetAddress::InetAddress(std::string ip, uint16_t port)
 std::string InetAddress::toIp() const
 {
     char buf[32] = {0};
-    inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof buf);
+    inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof(buf));
     return buf;
 }
 
@@ -44,11 +44,11 @@ std::string InetAddress::toIpPort() const
 {
     // ip
     char ipBuf[32] = {0};
-    inet_ntop(AF_INET, &addr_.sin_addr, ipBuf, sizeof ipBuf);
+    inet_ntop(AF_INET, &addr_.sin_addr, ipBuf, sizeof(ipBuf));
     // ip + port
     uint16_t port = ntohs(addr_.sin_port);
     char ipPortBuf[64] = {0};
-    snprintf(ipPortBuf, sizeof ipPortBuf, "%s:%u", ipBuf, port); 
+    snprintf(ipPortBuf, sizeof(ipPortBuf), "%s:%u", ipBuf, port); 
         /// @c %u : 传入无符号整数
     return ipPortBuf;
 }

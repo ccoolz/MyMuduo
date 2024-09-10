@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -std=c++11 -fPIC
 
 CXX_DEFINES = -Dmy_muduo_EXPORTS
 
-CXX_INCLUDES = -I/home/ccoolz/cppCode/app/MyMuduo/inc 
+CXX_INCLUDES = -I/home/ccoolz/cppCode/app/MyMuduo/inc/base -I/home/ccoolz/cppCode/app/MyMuduo/inc/net 
 

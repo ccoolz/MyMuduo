@@ -1,12 +1,16 @@
 #ifndef _TCP_SERVER_H_
 #define _TCP_SERVER_H_
 
+#include "noncopyable.h"
+
 namespace zr
 {
 
-class TcpServer
+class TcpServer : noncopyable
 {
+public:
 
+private:
 };
 
 
